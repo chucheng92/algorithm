@@ -1,8 +1,10 @@
 package com.lemon.datastructure.tree;
 
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Created by Lemonjing on 2016/3/17 0017. Github: Lemonjing email:
@@ -118,7 +120,7 @@ public class BTree {
 			node = node.rightChild;
 		}
 	}
-	
+
 	/**
 	 * 后序
 	 * 
