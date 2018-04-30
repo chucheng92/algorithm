@@ -3,9 +3,9 @@ package com.rannn.sort;
 import java.util.Arrays;
 
 /**
+ * Created by Lemonjing on 2015/4/18.
+ * Github: Lemonjing
  * 折半查找
- *
- * @author 哓哓
  */
 public class HalfSearch {
     public int halfSearch(int[] a, int low, int high, int x) {
