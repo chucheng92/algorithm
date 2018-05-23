@@ -45,12 +45,12 @@ public class QuickSort {
         int pivot = a[low];
 
         while (low < high) {
-            // 注意等于，否则死循环
+            // 注意等于，否则当全部待排序数字都相同的时候会死循环
             while (low < high && a[high] >= pivot) {
                 high--;
             }
             a[low] = a[high];
-            // 注意等于，否则死循环
+            // 注意等于，否则当全部待排序数字都相同的时候会死循环
             while (low < high && a[low] <= pivot) {
                 low++;
             }
